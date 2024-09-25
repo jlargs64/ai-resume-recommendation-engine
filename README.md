@@ -18,7 +18,7 @@ This is an example repo of trying to tie together different skills into the same
 
 ### Cloud Infrastructure
 
-- LocalStack (TODO instructions here)
+- `docker-compose up -d`
 
 ## Roadmap
 

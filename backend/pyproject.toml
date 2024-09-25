@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "ai-resume-recommendation-engine"
 version = "0.1.0"
-description = ""
+description = "An example job recommendation engine based off of keywords found in resumes"
 authors = ["Justin Largo <justinlargo7@gmail.com>"]
 license = "MIT"
 readme = "README.md"
@@ -11,6 +11,11 @@ python = "^3.12"
 fastapi = "^0.115.0"
 pydantic-settings = "^2.5.2"
 sqlalchemy = "^2.0.35"
+python-multipart = "^0.0.10"
+uvicorn = "^0.30.6"
+pypdf2 = "^3.0.1"
+awscli-local = "^0.22.0"
+boto3 = "^1.35.26"
 
 
 [build-system]
