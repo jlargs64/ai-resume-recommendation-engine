@@ -6,7 +6,7 @@ from fastapi import APIRouter, File, Form, HTTPException, UploadFile, status
 from app.core.logger import get_logger
 
 resume_api_router_v1 = APIRouter("/v1/resume")
-logger = get_logger()
+logger = get_logger("ResumeAPI_V1")
 
 
 @resume_api_router_v1.post("/")

@@ -9,9 +9,6 @@ class Job(Base):
     id = Column(Integer, primary_key=True)
     title = Column(String)
     company = Column(String)
-    skills = Column(
-        String,
-    )
     description = Column(
         String,
     )

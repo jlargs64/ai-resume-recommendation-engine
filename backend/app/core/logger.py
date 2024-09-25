@@ -6,5 +6,7 @@ logging.basicConfig(
 )
 
 
-def get_logger():
-    return logging.getLogger("fastapi-logger")
+def get_logger(name: str | None = None) -> logging.Logger:
+    if name:
+        return logging.getLogger(name=name)
+    return logging.getLogger("ROOT")
